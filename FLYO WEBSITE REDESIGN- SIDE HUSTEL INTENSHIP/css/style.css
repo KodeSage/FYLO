@@ -1,0 +1,429 @@
+                                                                                                                                                                            * {
+                                                                                                                                                                                margin: 0;
+                                                                                                                                                                                padding: 0;
+                                                                                                                                                                                border: border-box;
+                                                                                                                                                                            }
+                                                                                                                                                                            /* BODY*/
+                                                                                                                                                                            
+                                                                                                                                                                            body {
+                                                                                                                                                                                clear: both;
+                                                                                                                                                                                font-size: 15px;
+                                                                                                                                                                                font-family: 'Railway', sans-serif;
+                                                                                                                                                                                line-height: 1.6;
+                                                                                                                                                                                color: white;
+                                                                                                                                                                                background: hsl(218, 28%, 16%);
+                                                                                                                                                                                display: block;
+                                                                                                                                                                                width: 100%;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            p {
+                                                                                                                                                                                display: block;
+                                                                                                                                                                                margin-block-start: 1em;
+                                                                                                                                                                                margin-block-end: 1em;
+                                                                                                                                                                                margin-inline-start: 0px;
+                                                                                                                                                                                margin-inline-end: 0px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            h1,
+                                                                                                                                                                            h2,
+                                                                                                                                                                            h3,
+                                                                                                                                                                            h4,
+                                                                                                                                                                            h5,
+                                                                                                                                                                            h6 {
+                                                                                                                                                                                font-family: 'Raleway', sans-serif;
+                                                                                                                                                                                line-height: 1.7;
+                                                                                                                                                                                font-weight: 700;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            h1 {
+                                                                                                                                                                                font-size: 1.7rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            h2 {
+                                                                                                                                                                                font-size: 1.5rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            h3 {
+                                                                                                                                                                                font-size: 1.4rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            ul {
+                                                                                                                                                                                list-style-type: none;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            div {
+                                                                                                                                                                                display: block;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            a {
+                                                                                                                                                                                text-decoration: none;
+                                                                                                                                                                            }
+                                                                                                                                                                            /* NavBar  */
+                                                                                                                                                                            
+                                                                                                                                                                            nav .logo {
+                                                                                                                                                                                line-height: 30px;
+                                                                                                                                                                                margin: 10px;
+                                                                                                                                                                                float: left;
+                                                                                                                                                                                width: 120px;
+                                                                                                                                                                                height: 60px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            nav {
+                                                                                                                                                                                background-color: hsl(218, 28%, 16%);
+                                                                                                                                                                                border-bottom: 2px solid transparent;
+                                                                                                                                                                                height: 70px;
+                                                                                                                                                                                line-height: 70px;
+                                                                                                                                                                                text-align: right;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            nav a {
+                                                                                                                                                                                color: #fff;
+                                                                                                                                                                                line-height: 70px;
+                                                                                                                                                                                height: 70px;
+                                                                                                                                                                                margin: 10px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            nav a:hover {
+                                                                                                                                                                                border-bottom: 2px solid hsl(198, 60%, 50%);
+                                                                                                                                                                                color: hsl(198, 60%, 50%);
+                                                                                                                                                                            }
+                                                                                                                                                                            /* Showcase */
+                                                                                                                                                                            
+                                                                                                                                                                            #showcase {
+                                                                                                                                                                                background: hsl(218, 28%, 16%);
+                                                                                                                                                                                background-size: cover;
+                                                                                                                                                                                height: 100vh;
+                                                                                                                                                                                background-position: center;
+                                                                                                                                                                                font-family: "OpenSans", sans-serif;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            #showcase1>div {
+                                                                                                                                                                                width: 60%;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            #showcase1 {
+                                                                                                                                                                                background-position: center;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            #showcase img {
+                                                                                                                                                                                width: 100%;
+                                                                                                                                                                                max-width: 600px;
+                                                                                                                                                                                height: auto;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            #showcase1 p,
+                                                                                                                                                                            a {
+                                                                                                                                                                                margin: 20px;
+                                                                                                                                                                                line-height: 2.0;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            #showcase1 h2 {
+                                                                                                                                                                                font-size: 32px;
+                                                                                                                                                                                margin: 20px;
+                                                                                                                                                                                line-height: 2.0;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .btn {
+                                                                                                                                                                                width: 15rem;
+                                                                                                                                                                                max-width: 80%;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .mt2 {
+                                                                                                                                                                                margin-top: 1rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .mt {
+                                                                                                                                                                                margin-top: 2rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            button {
+                                                                                                                                                                                font-family: 'Railway';
+                                                                                                                                                                                color: white;
+                                                                                                                                                                                background-color: hsl(198, 60%, 50%);
+                                                                                                                                                                                height: 3rem;
+                                                                                                                                                                                font-weight: 700;
+                                                                                                                                                                                border-radius: 25px;
+                                                                                                                                                                                border-width: initial;
+                                                                                                                                                                                border-style: none;
+                                                                                                                                                                                padding: 0px 12px;
+                                                                                                                                                                                display: inline-block;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                align-items: flex-start;
+                                                                                                                                                                                cursor: pointer;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            button :hover {
+                                                                                                                                                                                background-image: linear-gradient(to right hsl(198, 60%, 50%)red);
+                                                                                                                                                                            }
+                                                                                                                                                                            /* Main-Scetion  */
+                                                                                                                                                                            
+                                                                                                                                                                            .svg {
+                                                                                                                                                                                background: url(/images/bg-curvy-desktop.svg);
+                                                                                                                                                                                height: 100vh;
+                                                                                                                                                                                background-size: cover;
+                                                                                                                                                                                background-position: center;
+                                                                                                                                                                                /* position: absolute; */
+                                                                                                                                                                            }
+                                                                                                                                                                            /* Features Section */
+                                                                                                                                                                            
+                                                                                                                                                                            .section {
+                                                                                                                                                                                padding: 4.5rem 5rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .main-features {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                flex-wrap: wrap;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                margin-top: 12rem;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                /* padding: 2.5px; */
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .features-1 {
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                width: 40%;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                padding: 2rem 0px;
+                                                                                                                                                                                margin: 22px 10px;
+                                                                                                                                                                                flex-wrap: wrap;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            h3 {
+                                                                                                                                                                                font-size: 1.4rem;
+                                                                                                                                                                                line-height: 1.7;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .productive {
+                                                                                                                                                                                background-color: #181F2B;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .productive img {
+                                                                                                                                                                                margin-top: 4rem;
+                                                                                                                                                                                width: 90%;
+                                                                                                                                                                                max-width: 600px;
+                                                                                                                                                                                height: auto;
+                                                                                                                                                                                margin: 0px 8px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .productive-content {
+                                                                                                                                                                                margin-top: 2rem;
+                                                                                                                                                                                padding: 0px;
+                                                                                                                                                                                flex-wrap: wrap;
+                                                                                                                                                                                margin: 0 0 0 8px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .testimonial {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: space-between;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                                background-color: #181F2B;
+                                                                                                                                                                                padding-top: 4rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .testimonial-item {
+                                                                                                                                                                                margin-left: 3.5rem;
+                                                                                                                                                                                flex-basis: 33.3%;
+                                                                                                                                                                                border-radius: 5px;
+                                                                                                                                                                                background-color: hsl(219, 30%, 18%);
+                                                                                                                                                                                box-shadow: 2px 2px 20px 2px hsl(219, 30%, 9%);
+                                                                                                                                                                                padding: 2.5rem 2rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .testimonial-item:last-child {
+                                                                                                                                                                                place-items: center;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .testimonial-item-reviewer {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                padding-top: 1rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .testimonial-item-reviewer img {
+                                                                                                                                                                                border-radius: 50%;
+                                                                                                                                                                                height: 50px;
+                                                                                                                                                                                width: 50px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .cta {
+                                                                                                                                                                                position: relative;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .cta-item {
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                top: 50px;
+                                                                                                                                                                                /* max-width: 800px; */
+                                                                                                                                                                                /* width: 60.66%; */
+                                                                                                                                                                                min-width: 300px;
+                                                                                                                                                                                padding: 3.5rem 3rem;
+                                                                                                                                                                                box-shadow: 2px 2px 30px 2px hsl(218, 28%, 13%);
+                                                                                                                                                                                background-color: hsl(219, 30%, 18%);
+                                                                                                                                                                                border-radius: 5px;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .cta-text {
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .cta-form {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .input-block {
+                                                                                                                                                                                width: 80%;
+                                                                                                                                                                                max-width: 600px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            input {
+                                                                                                                                                                                height: 3rem;
+                                                                                                                                                                                padding-left: 8px;
+                                                                                                                                                                                background-color: white;
+                                                                                                                                                                                border-style: none;
+                                                                                                                                                                                border-color: initial;
+                                                                                                                                                                                border-radius: 25px;
+                                                                                                                                                                                max-width: 100%;
+                                                                                                                                                                                outline: none;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .btn-block {
+                                                                                                                                                                                max-width: 100%;
+                                                                                                                                                                                width: auto;
+                                                                                                                                                                                margin-left: 3px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .attribution-container {
+                                                                                                                                                                                grid-area: attribution;
+                                                                                                                                                                                margin-top: 7rem
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .attribution {
+                                                                                                                                                                                font-size: 12px;
+                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                margin-top: 6rem
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .attribution a {
+                                                                                                                                                                                color: hsl(228, 45%, 44%);
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            footer {
+                                                                                                                                                                                /* background: hsl(216, 53%, 9%); */
+                                                                                                                                                                                margin-top: 95rem;
+                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                display: block;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info>div,
+                                                                                                                                                                            .contact-info>nav {
+                                                                                                                                                                                padding: 1rem 0;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-logo {
+                                                                                                                                                                                grid-area: logo;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-location {
+                                                                                                                                                                                grid-area: location;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-contacts-item,
+                                                                                                                                                                            .contact-info-location-item {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .img-footer {
+                                                                                                                                                                                margin-right: 1rem;
+                                                                                                                                                                                height: 18px;
+                                                                                                                                                                                line-height: 1.5;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            footer p {
+                                                                                                                                                                                padding: 0;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-contacts {
+                                                                                                                                                                                grid-area: contacts;
+                                                                                                                                                                                flex-direction: column;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-contacts-item:first-child {
+                                                                                                                                                                                margin-bottom: 2rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-location-item {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .img-footer {
+                                                                                                                                                                                margin-right: 1rem;
+                                                                                                                                                                                width: 18px;
+                                                                                                                                                                                height: 18px;
+                                                                                                                                                                                line-height: 1.5;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-links {
+                                                                                                                                                                                grid-area: links;
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-social-links {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: flex-end;
+                                                                                                                                                                                grid-area: social;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-links-list:first-child {
+                                                                                                                                                                                margin-right: 2.5rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            ul {
+                                                                                                                                                                                display: block;
+                                                                                                                                                                                margin-block-start: 1em;
+                                                                                                                                                                                margin-block-end: 1em;
+                                                                                                                                                                                margin-inline-start: 0px;
+                                                                                                                                                                                margin-inline-end: 0px;
+                                                                                                                                                                                padding-inline-start: 40px;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-links-list li {
+                                                                                                                                                                                margin-bottom: 1.5rem;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-social-links {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                grid-area: social;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .flex-center {
+                                                                                                                                                                                display: flex;
+                                                                                                                                                                                justify-content: center;
+                                                                                                                                                                                align-items: center;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .contact-info-social-link-item {
+                                                                                                                                                                                margin-left: 1rem;
+                                                                                                                                                                                height: 30px;
+                                                                                                                                                                                width: 30px;
+                                                                                                                                                                                border: 1px solid white;
+                                                                                                                                                                                border-radius: 50%;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .fab {
+                                                                                                                                                                                color: white;
+                                                                                                                                                                            }
+                                                                                                                                                                            
+                                                                                                                                                                            .fab,
+                                                                                                                                                                            .far {
+                                                                                                                                                                                font-weight: 400;
+                                                                                                                                                                            }
