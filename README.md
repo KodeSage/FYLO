@@ -91,7 +91,7 @@ Well, I will love to master how Css Grid and Flexx box works. Also how to centre
 
 ## Acknowledgments
 
-I really Want to thank the Orgainizers of Side Hustle Internship for putting this Challenge/Internship.  
+I really Want to thank the Orgainizers of Side Hustle Internship for putting forth this Challenge/Internship. 
 
 
 
